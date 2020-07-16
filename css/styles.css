@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.main-banner {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/crater-2700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #3B413C;
+    text-align: center;
+}
+
+.navigation {
+    height: 110px;
+    width: 100%;
+}
+
+.my-info {
+    height: 550px;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+    font-family: Roboto;
+    color: white;
+}
+
+.my-picture {
+    height: 35%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
