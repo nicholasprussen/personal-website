@@ -82,10 +82,15 @@ body {
     background-color: lightgrey;
 }
 
+.progress-bar-internal {
+    height:8px;
+    background-color:blue;
+}
+
 .progress-right {
-    padding-left: 75%;
     text-align: left;
     width: 25%;
+    float: right;
 }
 
 
@@ -103,10 +108,10 @@ body {
 }
 
 .progress-center {
-    padding-left: 37.5%;
+    margin-left: 12.5%;
     text-align: left;
     width: 25%;
-    margin-top: -47px;
+    float: left;
 }
 
 
@@ -124,9 +129,10 @@ body {
 }
 
 .progress-left {
+    background-color: blue;
     text-align: left;
     width: 25%;
-    margin-top: -47px;
+    float: left;
 }
 
 .progress-left-h4 {
@@ -144,10 +150,9 @@ body {
 
 
 .progress-right-bottom {
-    padding-left: 75%;
     text-align: left;
     width: 25%;
-    margin-top: 25px;
+    float: right;
 }
 
 
@@ -166,10 +171,10 @@ body {
 
 
 .progress-center-bottom {
-    padding-left: 37.5%;
+    margin-left: 12.5%;
     text-align: left;
     width: 25%;
-    margin-top: -47px;
+    float: left;
 }
 
 .progress-center-bottom-h4 {
@@ -189,7 +194,7 @@ body {
 .progress-left-bottom {
     text-align: left;
     width: 25%;
-    margin-top: -47px;
+    float: left;
 }
 
 .progress-left-bottom-h4 {
@@ -222,3 +227,31 @@ body {
     background-color: white;
 }
 
+.bottom {
+    margin-top: 25px;
+}
+
+.social-medias {
+    margin-top: 20px;
+    display: inline-block;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+}
+
+.social-image {
+    width: 20px;
+    height: 20px;
+}
+
+.pad-right {
+    padding-right: 10px;
+}
+
+.pad-left {
+    padding-left: 10px;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
