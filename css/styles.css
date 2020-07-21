@@ -58,7 +58,7 @@ body {
     width: 45%;
     text-align: center;
     display: inline-block;
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: white;
 }
 
@@ -83,14 +83,14 @@ body {
 }
 
 .info-section-header-text {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 36px;
     margin-top: 25px;
 }
 
 .info-section-bio-div {
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto';
     width: 100%;
     display: inline-block;
     margin-top: 24px;
@@ -121,13 +121,13 @@ body {
 
 
 .progress-right-h4 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-right-h6 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -142,13 +142,13 @@ body {
 
 
 .progress-center-h4 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-center-h6 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -162,13 +162,13 @@ body {
 }
 
 .progress-left-h4 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-left-h6 {
-    font-family: Roboto;
+    font-family: 'oboto';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -183,13 +183,13 @@ body {
 
 
 .progress-right-bottom-h4 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-right-bottom-h6 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -204,13 +204,13 @@ body {
 }
 
 .progress-center-bottom-h4 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-center-bottom-h6 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -224,13 +224,13 @@ body {
 }
 
 .progress-left-bottom-h4 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-left-bottom-h6 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -339,7 +339,7 @@ body {
 }
 
 .rel-link-header-text {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 36px;
 	margin-bottom: 0;
 	margin-top: 20px;
@@ -347,7 +347,7 @@ body {
 }
 
 .grid-inside-headers {
-	font-family: roboto;
+	font-family: 'Helvetica';
 	font-size: 24px;
 	display: inline-block;
 	color: white;
