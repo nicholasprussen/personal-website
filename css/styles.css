@@ -11,32 +11,6 @@ body {
    text-align: center;
 }
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Light.eot');
-    src: url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
-        url('Roboto-Light.woff2') format('woff2'),
-        url('Roboto-Light.woff') format('woff'),
-        url('Roboto-Light.ttf') format('truetype'),
-        url('Roboto-Light.svg#Roboto-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Italic';
-    src: url('Roboto-LightItalic.eot');
-    src: url('Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('Roboto-LightItalic.woff2') format('woff2'),
-        url('Roboto-LightItalic.woff') format('woff'),
-        url('Roboto-LightItalic.ttf') format('truetype'),
-        url('Roboto-LightItalic.svg#Roboto-LightItalic') format('svg');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
 .main-banner {
     height: 800px;
     width: 100%;
@@ -58,7 +32,7 @@ body {
     width: 45%;
     text-align: center;
     display: inline-block;
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     color: white;
 }
 
@@ -83,14 +57,14 @@ body {
 }
 
 .info-section-header-text {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     font-size: 36px;
     margin-top: 25px;
 }
 
 .info-section-bio-div {
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     width: 100%;
     display: inline-block;
     margin-top: 24px;
@@ -121,13 +95,13 @@ body {
 
 
 .progress-right-h4 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-right-h6 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -142,13 +116,13 @@ body {
 
 
 .progress-center-h4 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-center-h6 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -162,7 +136,7 @@ body {
 }
 
 .progress-left-h4 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
 }
@@ -183,13 +157,13 @@ body {
 
 
 .progress-right-bottom-h4 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-right-bottom-h6 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -204,13 +178,13 @@ body {
 }
 
 .progress-center-bottom-h4 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-center-bottom-h6 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -224,13 +198,13 @@ body {
 }
 
 .progress-left-bottom-h4 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
 }
 
 .progress-left-bottom-h6 {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     background-color: white;
     font-weight: 350;
     font-style: italic;
@@ -339,7 +313,7 @@ body {
 }
 
 .rel-link-header-text {
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     font-size: 36px;
 	margin-bottom: 0;
 	margin-top: 20px;
