@@ -45,7 +45,7 @@ body {
 
 .more-information-section {
     width: 60%;
-    height: 425px;
+    height: 400px;
     background-color: #ffffff;
     text-align: center;
     display: inline-block;
@@ -65,7 +65,7 @@ body {
 .info-section-bio-div {
     text-align: center;
     font-family: 'Helvetica';
-    width: 100%;
+    width: 60%;
     display: inline-block;
     margin-top: 24px;
     font-weight: 350;
@@ -74,8 +74,9 @@ body {
 .progress-bars {
     width: 100%;
     height: 180px;
-    margin-top: 65px;
+    margin-top: 40px;
     background-color: transparent;
+	display: inline-block;
 }
 
 .progress-border {
@@ -263,7 +264,7 @@ body {
 
 .container-rel {
     width: 60%;
-    height: 250px;
+    height: 100%;
     background-color: transparent;
     display: inline-block;
 }
@@ -293,25 +294,29 @@ body {
 
 .grid-container {
 	display: grid;
-	height: 100%;
+	height: 65%;
 	width: 100%;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
+	grid-auto-flow: row;
 	background-color: transparent;
-	padding: 20px;
-	margin-top: 30px;
 }
 
 .grid-container > div {
     background-color: black;
 	opacity: 0.5;
     text-align: center;
-	padding: 20px 0;
+	padding: 0 0;
 	font-size: 30px;
 	border-radius: 10px;
 	transition: 0.35s all;
 }
 
+.rel-link-container {
+	width: 100%;
+	height: 20%;
+	margin-bottom: 10px;
+}
 .rel-link-header-text {
     font-family: 'Helvetica';
     font-size: 36px;
@@ -325,5 +330,7 @@ body {
 	font-size: 24px;
 	display: inline-block;
 	color: white;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
