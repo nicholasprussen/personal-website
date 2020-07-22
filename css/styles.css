@@ -44,7 +44,7 @@ body {
 }
 
 .more-information-section {
-    width: 750px;
+    width: 60%;
     height: 425px;
     background-color: #ffffff;
     text-align: center;
@@ -75,7 +75,7 @@ body {
     width: 100%;
     height: 180px;
     margin-top: 65px;
-    background-color: white;
+    background-color: transparent;
 }
 
 .progress-border {
@@ -262,7 +262,7 @@ body {
 }
 
 .container-rel {
-    width: 1200px;
+    width: 60%;
     height: 250px;
     background-color: transparent;
     display: inline-block;
@@ -295,7 +295,7 @@ body {
 	display: grid;
 	height: 100%;
 	width: 100%;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
 	background-color: transparent;
 	padding: 20px;
