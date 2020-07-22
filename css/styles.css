@@ -44,8 +44,8 @@ body {
 }
 
 .more-information-section {
-    width: 60%;
-    height: 400px;
+    width: 55%;
+    height: 415px;
     background-color: #ffffff;
     text-align: center;
     display: inline-block;
@@ -77,6 +77,7 @@ body {
     margin-top: 40px;
     background-color: transparent;
 	display: inline-block;
+	margin-bottom: 45px;
 }
 
 .progress-border {
@@ -85,7 +86,7 @@ body {
 
 .progress-bar-internal {
     height:8px;
-    background-color:blue;
+    background-color: blue;
 }
 
 .progress-right {
@@ -94,18 +95,10 @@ body {
     float: right;
 }
 
-
-.progress-right-h4 {
+.progress-h4 {
     font-family: 'Helvetica';
     background-color: white;
     font-size: 24px;
-}
-
-.progress-right-h6 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-weight: 350;
-    font-style: italic;
 }
 
 .progress-center {
@@ -115,103 +108,20 @@ body {
     float: left;
 }
 
-
-.progress-center-h4 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-size: 24px;
-}
-
-.progress-center-h6 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-weight: 350;
-    font-style: italic;
-}
-
 .progress-left {
-    background-color: blue;
     text-align: left;
     width: 25%;
     float: left;
 }
 
-.progress-left-h4 {
+.progress-h6 {
+	margin-top: 5px;
     font-family: 'Helvetica';
-    background-color: white;
-    font-size: 24px;
-}
-
-.progress-left-h6 {
-    font-family: 'oboto';
+	font-size: 13px;
     background-color: white;
     font-weight: 350;
     font-style: italic;
 }
-
-
-.progress-right-bottom {
-    text-align: left;
-    width: 25%;
-    float: right;
-}
-
-
-.progress-right-bottom-h4 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-size: 24px;
-}
-
-.progress-right-bottom-h6 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-weight: 350;
-    font-style: italic;
-}
-
-
-.progress-center-bottom {
-    margin-left: 12.5%;
-    text-align: left;
-    width: 25%;
-    float: left;
-}
-
-.progress-center-bottom-h4 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-size: 24px;
-}
-
-.progress-center-bottom-h6 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-weight: 350;
-    font-style: italic;
-}
-
-
-.progress-left-bottom {
-    text-align: left;
-    width: 25%;
-    float: left;
-}
-
-.progress-left-bottom-h4 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-size: 24px;
-}
-
-.progress-left-bottom-h6 {
-    font-family: 'Helvetica';
-    background-color: white;
-    font-weight: 350;
-    font-style: italic;
-}
-
-
 
 .extender {
     width: 100%;
@@ -226,7 +136,7 @@ body {
 .social-medias {
     margin-top: 20px;
     display: inline-block;
-    width: 200px;
+    width: 100px;
     height: 75px;
     text-align: center;
 }
@@ -236,37 +146,17 @@ body {
     height: 20px;
 }
 
-.pad-right {
+.pad-right-medias {
     padding-right: 10px;
 }
 
-.pad-left {
+.pad-left-medias {
     padding-left: 10px;
 }
 
 .grow:hover {
     z-index: 5;
     transform: scale(1.2);
-}
-
-.relevant-links {
-    width: 100%;
-    background-image: url(../images/bridge-blur.jpg);
-    background-color: #d2b48c;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: 400px;
-    text-align: center;
-    margin-top: 5px;
-	text-align: center;
-}
-
-.container-rel {
-    width: 60%;
-    height: 100%;
-    background-color: transparent;
-    display: inline-block;
 }
 
 .red {
@@ -292,45 +182,116 @@ body {
     margin-top: 50%;
 }
 
-.grid-container {
-	display: grid;
-	height: 65%;
-	width: 100%;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	grid-auto-flow: row;
-	background-color: transparent;
+.links-background {
+    background-image: url(../images/bridge-blur.jpg);
+    background-color: #d2b48c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+	height: 400px;
 }
 
-.grid-container > div {
-    background-color: black;
+.rel-links-background {
+    background: url(../images/bridge-blur.jpg);
+    background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	padding: 100px 0 120px;
+    position: relative;
+    z-index: 0;
+}
+  
+.rel-links-background:before {
+    content: "";
+    background: rgba(7, 10, 12, 0.72);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1; 
+}
+
+.rel-middle-section {
+    display: grid; 
+}
+
+.rel-three-grids-columns {
+    padding: 40px 40px;
+    transition: 0.25s ease-out;
+    border-radius: 4px;
+	background-color: black;
 	opacity: 0.5;
-    text-align: center;
-	padding: 0 0;
-	font-size: 30px;
-	border-radius: 10px;
-	transition: 0.35s all;
 }
 
-.rel-link-container {
-	width: 100%;
-	height: 20%;
-	margin-bottom: 10px;
-}
-.rel-link-header-text {
-    font-family: 'Helvetica';
-    font-size: 36px;
-	margin-bottom: 0;
-	margin-top: 20px;
-	color: white;
+.rel-three-grids-columns:hover {
+    transition: 0.25s ease-out;
+    opacity: 0.9;
+	transform: scale(1.05);
 }
 
-.grid-inside-headers {
-	font-family: 'Helvetica';
-	font-size: 24px;
-	display: inline-block;
-	color: white;
-	margin-top: 30px;
-	margin-right: 5px;
-	margin-left: 5px;
+.rel-grid-column {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; 
+}
+
+.rel-three-grids-columns h4 {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-top: 25px;
+    font-weight: 800; 
+}
+
+.rel-three-grids-columns p {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white; 
+}
+
+  .relevant-links a.actionbg {
+    font-size: 16px;
+    color: var(--opposite-color);
+    margin-top: 25px;
+    display: inline-block;
+    font-weight: 700; }
+  .relevant-links a.actionbg:hover {
+    color: white; }
+  .relevant-links img.arrow-png {
+    padding-left: 5px; }
+
+@media (max-width: 1280px) {
+  .rel-three-grids-columns h4 {
+      padding-top: 20px; }
+  .rel-links-background {
+      padding: 40px 0px; } 
+}
+
+@media (max-width: 900px) {
+  .relevant-links a.actionbg {
+      margin-top: 20px; }
+  .rel-three-grids-columns h4 {
+      padding-top: 13px; } 
+}
+
+@media (max-width: 768px) {
+  .rel-grid-column {
+      grid-template-columns: 1fr;
+      grid-gap: 35px; }
+  .rel-three-grids-columns h4 {
+      padding-top: 7px; }
+  .relevant-links a.actionbg {
+      margin-top: 12px; } 
+}
+  
+@media (max-width: 768px) {
+  .rel-three-grids-columns h4 {
+      font-size: 22px; } 
+}
+
+@media (max-width: 320px) {
+  .rel-three-grids-columns h4 {
+      font-size: 20px;
+      line-height: 25px; }
 }
