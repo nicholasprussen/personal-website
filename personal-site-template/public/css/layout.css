@@ -209,7 +209,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    width: 120px;
    height: 120px;
-   border-radius: 100%;
+   border-radius: 20%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -417,7 +417,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -465,7 +465,7 @@ ul#nav li.current a { color: #F06000; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   background: #1f1f1f;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -493,6 +493,8 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   width: 100%;
+   height: 100%;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -507,7 +509,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* on hover */
 .portfolio-item:hover .overlay {
-	opacity: 1;
+	opacity: 10;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
