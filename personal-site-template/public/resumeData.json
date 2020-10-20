@@ -54,19 +54,19 @@
         "company":"Adapt Data Flow Optimizations Lab",
         "title":"Student Researcher",
         "years":"January 2020 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Working alonside professors and students to create data flow optimizations with programming languages and transformations. Currently doing Web Development for the Parflow team to integrate benchmark results stored in MongoDB to be displayed on a dynamic website using React and Flask. Previously worked on the Adapt Lidar Tools project."
       },
       {
         "company":"Norvanco International, Inc.",
         "title":"Warehouse Worker",
         "years":"May 2019 - August 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Processed international shipments headed to warehouses for multinational retail stores. Also unloaded and organized shipping containers."
       },
       {
         "company":"Little Caesars",
         "title":"Cashier/Cook",
         "years":"December 2016 - June 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Worked as both a Cashier and Cook and took on responsibilities of a Shift Lead without a promotion due to me being under the age of 18."
       }
     ],
     "skills":[
@@ -84,10 +84,10 @@
       },
       {
         "name":"Software Frontend (HTML/CSS)",
-        "level":"85%"
+        "level":"75%"
       },
       {
-        "name":"Software Backend (MongoDB, mySQL, Flask, Apache, React)",
+        "name":"Software Backend (MongoDB, React, Flask)",
         "level":"70%"
       },
       {
@@ -103,34 +103,28 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Adapt Lidar Tools",
+        "category":"An array of tools for processing full-waveform lidar data.",
         "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://github.com/BoiseState-AdaptLab/adapt-lidar-tools"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Parflow Performance Testing",
+        "category":"A set of benchmarks for the Parflow project.",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://github.com/hydroframe/ParflowPerformanceTesting"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Wumpus World App",
+        "category":"My CS121 project, which I rebuilt using Android Studio into an Android App published on the Play Store.",
         "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://github.com/Scorch-Git/com.scorchgames.wumpusworld"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"Parflow Performance Benchmarks Website",
+        "category":"Currently being built using React, Flask and MongoDB. Still in development but will be public when finished.",
         "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":""
       }
     ]
   },
