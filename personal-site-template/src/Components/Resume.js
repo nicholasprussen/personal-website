@@ -12,10 +12,16 @@ class Resume extends Component {
       })
       var work = this.props.data.work.map(function(work){
         if(work.company === "Adapt Data Flow Optimizations Lab"){
-          return <div key={work.company}><h3 >{work.company}</h3>
+          return <div key={work.company}><a href={work.adaptwebsite}><h3 >{work.company}</h3></a>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
-            <a href="https://boisestate-adaptlab.github.io/"><p>Adapt Website</p></a>
+            <h6>Projects I've worked on.</h6>
+            <a href={work.pptgithub}><ul style={{listStyleType: 'disc'}}><li>{work.projecttwotitle}</li></ul></a>
+            <p style={{marginTop: "-25px"}}>{work.projecttwotimeline}</p>
+            <p style={{marginTop: "-15px"}}>{work.projecttwodescription}</p>
+            <a href={work.altgithub}><ul style={{listStyleType: 'disc'}}><li>{work.projectonetitle}</li></ul></a>
+            <p style={{marginTop: "-25px"}}>{work.projectonetimeline}</p>
+            <p style={{marginTop: "-15px"}}>{work.projectonedescription}</p>
           </div>
         } else{
           return <div key={work.company}><h3 >{work.company}</h3>

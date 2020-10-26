@@ -2,7 +2,7 @@
   "main": {
     "name":"Nicholas Prussen",
     "occupation":"Student",
-    "description":"Computer Science major in my Junior year at Boise State University",
+    "description":"studying Computer Science in my Junior year at Boise State University",
     "image":"profilepic.jpg",
     "bio":"Computer Science major in my junior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've been doing web development and learning the ropes of React and Flask to serve benchmark data in generated graphs for the Parflow Project.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -54,19 +54,16 @@
         "company":"Adapt Data Flow Optimizations Lab",
         "title":"Student Researcher",
         "years":"January 2020 - Present",
-        "description":"Working alonside professors and students to create data flow optimizations with programming languages and transformations. Currently doing Web Development for the Parflow team to integrate benchmark results stored in MongoDB to be displayed on a dynamic website using React and Flask. Previously worked on the Adapt Lidar Tools project."
-      },
-      {
-        "company":"Norvanco International, Inc.",
-        "title":"Warehouse Worker",
-        "years":"May 2019 - August 2019",
-        "description":"Processed international shipments headed to warehouses for multinational retail stores. Also unloaded and organized shipping containers."
-      },
-      {
-        "company":"Little Caesars",
-        "title":"Cashier/Cook",
-        "years":"December 2016 - June 2018",
-        "description":"Worked as both a Cashier and Cook and took on responsibilities of a Shift Lead without a promotion due to me being under the age of 18."
+        "description":"Working alonside professors and students to create data flow optimizations with programming languages and transformations. Currently doing Web Development for the Parflow team to integrate benchmark results stored in MongoDB to be displayed on a dynamic website using React and Flask. Previously worked on the Adapt Lidar Tools project.",
+        "projectonetitle": "Adapt Lidar Tools",
+        "projectonedescription": "Adapt Lidar Tools is a collection of full waveform processing tools written in C++11. This was the first Adapt Lab project I worked on and I primarily worked on benchmarking the suite of tools and helping refactor the codebase.",
+        "projecttwotitle": "Parflow Performance Testing",
+        "projecttwodescription": "Parflow Performance Testing is a benchmark suite for the Parflow project which simulates ground water movement for the continental Unites States. I started by learning MongoDB and Python as a means to upload benchmark results to a database. Currently I'm working on learning to integrate React, Flask and Charts.js to create an interactable website that can display benchmarks results to the end user in a convenient and intuitive way.",
+        "adaptwebsite": "https://boisestate-adaptlab.github.io/",
+        "pptgithub": "https://github.com/hydroframe/ParflowPerformanceTesting",
+        "altgithub": "https://github.com/BoiseState-AdaptLab/adapt-lidar-tools",
+        "projectonetimeline": "January 2020 - May 2020",
+        "projecttwotimeline": "May 2020 - Present"
       }
     ],
     "skills":[
