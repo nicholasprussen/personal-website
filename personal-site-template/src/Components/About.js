@@ -14,6 +14,7 @@ class About extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
+      var resumeView = this.props.data.resumeview;
     }
 
     return (
@@ -34,12 +35,13 @@ class About extends Component {
 						   <span>{street}<br  />
 						         {city} {state}, {zip}
                    </span><br /><br  />
-						   <span>{phone}</span><br  />
-                     <span>{email}</span>
+						   <span><a href={"mailto:" + {email}}>{email}</a></span><br  />
+                     <span><a href={"tel:" + {phone}}>{phone}</a></span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
+                     <a href={resumeView} className="button"><i className="fa fa-book"></i>View Resume</a>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
