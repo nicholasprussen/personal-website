@@ -4,7 +4,7 @@
     "occupation":"Student",
     "description":"studying Computer Science in my Junior year at Boise State University",
     "image":"profilepic.jpg",
-    "bio":"Computer Science major in my junior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've begun a summer internship at Hewlett Packard Enterprise (HPE) working on internal tools and bug prediction.",
+    "bio":"Computer Science major in my junior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've been doing web development and learning the ropes of React and Flask to serve benchmark data in generated graphs for the Parflow Project.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "nprussen@gmail.com",
     "phone": "253-459-4400",
@@ -75,23 +75,23 @@
     ],
     "skills":[
       {
-        "name":"JavaScript",
+        "name":"Java",
         "level":"85%"
       },
       {
         "name":"Python",
-        "level":"70%"
+        "level":"75%"
       },
       {
-        "name":"Web Dev Frontend (HTML/CSS/React/PHP)",
-        "level":"80%"
+        "name":"C",
+        "level":"65%"
       },
       {
-        "name":"Web Dev Backend (Flask/PHP)",
-        "level":"80%"
+        "name":"Software Frontend (HTML/CSS)",
+        "level":"75%"
       },
       {
-        "name":"Database Management (MongoDB/MySQL)",
+        "name":"Software Backend (MongoDB, React, Flask)",
         "level":"70%"
       },
       {
@@ -99,7 +99,7 @@
         "level":"70%"
       },
       {
-        "name":"Java",
+        "name":"Git",
         "level":"85%"
       }
     ]

@@ -2,9 +2,9 @@
   "main": {
     "name":"Nicholas Prussen",
     "occupation":"Student",
-    "description":"studying Computer Science in my Junior year at Boise State University",
+    "description":"studying Computer Science in my Senior year at Boise State University",
     "image":"profilepic.jpg",
-    "bio":"Computer Science major in my junior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've begun a summer internship at Hewlett Packard Enterprise (HPE) working on internal tools and bug prediction.",
+    "bio":"Computer Science major in my senior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've been doing web development and learning the ropes of React and Flask to serve benchmark data in generated graphs for the Parflow Project.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "nprussen@gmail.com",
     "phone": "253-459-4400",
@@ -52,46 +52,40 @@
     ],
     "work":[
       {
-        "company":"Hewlett Packard Enterprise (HPE)",
-        "title":"Intern",
-        "years":"May 2021 - Present",
-        "description":"Working on proprietary internal tools to help aid in bug prediction and cut down on bug diagnosing time."
-      },
-      {
         "company":"Adapt Data Flow Optimizations Lab",
         "title":"Student Researcher",
-        "years":"January 2020 - May 2021",
+        "years":"January 2020 - Present",
         "description":"Working alonside professors and students to create data flow optimizations with programming languages and transformations. Currently doing Web Development for the Parflow team to integrate benchmark results stored in MongoDB to be displayed on a dynamic website using React and Flask. Previously worked on the Adapt Lidar Tools project.",
         "projectonetitle": "Adapt Lidar Tools",
         "projectonedescription": "Adapt Lidar Tools is a collection of full waveform processing tools written in C++11. This was the first Adapt Lab project I worked on and I primarily worked on benchmarking the suite of tools and helping refactor the codebase.",
         "projecttwotitle": "Parflow Performance Testing",
-        "projecttwodescription": "Parflow Performance Testing is a benchmark suite for the Parflow project which simulates ground water movement for the continental Unites States. I started by learning MongoDB and Python as a means to upload benchmark results to a database. Currently I'm working on learning to integrate React, Flask and Chart.js to create an interactable website that can display benchmarks results to the end user in a convenient and intuitive way.",
+        "projecttwodescription": "Parflow Performance Testing is a benchmark suite for the Parflow project which simulates ground water movement for the continental Unites States. I started by learning MongoDB and Python as a means to upload benchmark results to a database. Currently I'm working on learning to integrate React, Flask and Charts.js to create an interactable website that can display benchmarks results to the end user in a convenient and intuitive way.",
         "adaptwebsite": "https://boisestate-adaptlab.github.io/",
         "pptgithub": "https://github.com/hydroframe/ParflowPerformanceTesting",
         "altgithub": "https://github.com/BoiseState-AdaptLab/adapt-lidar-tools",
         "projectonetimeline": "January 2020 - May 2020",
-        "projecttwotimeline": "May 2020 - May 2021"
+        "projecttwotimeline": "May 2020 - Present"
       }
     ],
     "skills":[
       {
-        "name":"JavaScript",
+        "name":"Java",
         "level":"85%"
       },
       {
         "name":"Python",
-        "level":"70%"
+        "level":"75%"
       },
       {
-        "name":"Web Dev Frontend (HTML/CSS/React/PHP)",
-        "level":"80%"
+        "name":"C",
+        "level":"65%"
       },
       {
-        "name":"Web Dev Backend (Flask/PHP)",
-        "level":"80%"
+        "name":"Software Frontend (HTML/CSS)",
+        "level":"75%"
       },
       {
-        "name":"Database Management (MongoDB/MySQL)",
+        "name":"Software Backend (MongoDB, React, Flask)",
         "level":"70%"
       },
       {
@@ -99,7 +93,7 @@
         "level":"70%"
       },
       {
-        "name":"Java",
+        "name":"Git",
         "level":"85%"
       }
     ]
