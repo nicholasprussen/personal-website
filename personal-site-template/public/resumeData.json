@@ -2,9 +2,9 @@
   "main": {
     "name":"Nicholas Prussen",
     "occupation":"Student",
-    "description":"studying Computer Science in my Junior year at Boise State University",
+    "description":"studying Computer Science in my Senior year at Boise State University",
     "image":"profilepic.jpg",
-    "bio":"Computer Science major in my junior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've begun a summer internship at Hewlett Packard Enterprise (HPE) working on internal tools and bug prediction.",
+    "bio":"Computer Science major in my senior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've begun a summer internship at Hewlett Packard Enterprise (HPE) working on internal tools and bug prediction.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "nprussen@gmail.com",
     "phone": "253-459-4400",
